@@ -96,9 +96,9 @@ class ClockApp():
 
         # Draw the changeable parts of the watch face
         draw.blit(DIGITS[now[4]  % 10], 4*48, 80, fg=hi)
-        draw.blit(DIGITS[now[4] // 10], 3*48, 80, fg=lo)
+        draw.blit(DIGITS[now[4] // 10], 3*48, 80, fg=hi)
         draw.blit(DIGITS[now[3]  % 10], 1*48, 80, fg=hi)
-        draw.blit(DIGITS[now[3] // 10], 0*48, 80, fg=lo)
+        draw.blit(DIGITS[now[3] // 10], 0*48, 80, fg=hi)
         draw.set_color(hi)
         draw.string('{} {} {}'.format(now[2], month, now[0]),
                 0, 180, width=240)
