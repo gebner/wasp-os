@@ -6,6 +6,7 @@ manifest = (
     'apps/alarm.py',
     'apps/calc.py',
     'apps/clock.py',
+    'apps/kanji_clock.py',
     'apps/chrono.py',
     'apps/fibonacci_clock.py',
     'apps/flashlight.py',
@@ -28,6 +29,8 @@ manifest = (
     'fonts/sans24.py',
     'fonts/sans28.py',
     'fonts/sans36.py',
+    'fonts/kanji25.py',
+    'fonts/kanji55.py',
     'icons.py',
     'widgets.py',
 )

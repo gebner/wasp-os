@@ -21,6 +21,7 @@ import watch
 import widgets
 
 from apps.clock import ClockApp
+from apps.kanji_clock import KanjiClockApp
 from apps.heart import HeartApp
 from apps.launcher import LauncherApp
 from apps.pager import PagerApp, CrashApp, NotificationApp
@@ -146,7 +147,7 @@ class Manager():
         self._scheduling = False
 
         # TODO: Eventually these should move to main.py
-        for app, qr in ( (ClockApp, True),
+        for app, qr in ( (KanjiClockApp, True),
                          (StepCounterApp, True),
                          (StopwatchApp, True),
                          (HeartApp, True),
